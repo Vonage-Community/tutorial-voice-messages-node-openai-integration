@@ -11,7 +11,7 @@ Fork [this repository](https://github.com/Vonage-Community/tutorial-voice-messag
 ## Create a new Vonage app
 In the left menu [here](https://dashboard.nexmo.com/), click API Settings, left menu item.
 
-![API Settings](/content/blog/integrate-phone-calls-and-sms-with-openai/settings.png)
+![API Settings](settings.png)
 
 Copy and paste in the `.env` file API key and API Secret
 
@@ -59,7 +59,7 @@ OPENAI_API_KEY=sk-**************************************
 EVENT_URL=https://******************************************-3000.preview.app.github.dev/webhooks/asr
 ```
 
-Update App settings using Dashboard. Go to Application in the left menu. Choose a related app and  click the 'Edit' button
+Update App settings using [Dashboard](https://dashboard.nexmo.com/). Go to Application in the left menu. Choose a related app and  click the 'Edit' button
 
 ![Edit App](edit-app-urls.png)
 
