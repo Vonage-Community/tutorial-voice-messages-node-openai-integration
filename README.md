@@ -8,6 +8,7 @@ Fork [this repository](https://github.com/Vonage-Community/tutorial-voice-messag
 
 ![Create Codespace interface](codespaces.png)
 
+
 ## Create a new Vonage app
 In the left menu [here](https://dashboard.nexmo.com/), click API Settings, left menu item.
 
@@ -58,6 +59,8 @@ API_SECRET=******************
 OPENAI_API_KEY=sk-**************************************
 EVENT_URL=https://******************************************-3000.preview.app.github.dev/webhooks/asr
 ```
+
+You will need to provide an answer URL for the application you create that corresponds to the answer route provided in the `.env` file. The answer URL needs to be an externally accessible URL that ends with /webhooks/answer. For example, if your URL was example.com, then your answer URL would be http://example.com/webhooks/answer.
 
 Update App settings using [Dashboard](https://dashboard.nexmo.com/). Go to Application in the left menu. Choose a related app and  click the 'Edit' button
 
